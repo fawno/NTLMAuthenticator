@@ -24,22 +24,5 @@
             "Fawno\\NTLM\\": "src"
         }
     },
-    "prefer-stable": true,
-    "autoload-dev": {
-        "psr-4": {
-            "Fawno\\Test\\": "tests/"
-        }
-    },
-    "scripts": {
-        "test": "phpunit"
-    },
-    "scripts-descriptions": {
-        "test": "Run PHPUnit tests"
-    },
-    "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "cakephp/plugin-installer": true
-        }
-    }
+    "prefer-stable": true
 }
