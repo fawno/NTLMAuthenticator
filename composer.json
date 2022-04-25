@@ -1,0 +1,23 @@
+{
+    "name": "fawno/ntlm-authentication",
+    "version": "0.0.1",
+    "description": "NTLM Authenticator for CakePHP 4.3",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "authenticator", "ntlm"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/fawno/NTLMAuthenticator/issues",
+        "source": "https://github.com/fawno/NTLMAuthenticator"
+    },
+    "require": {
+        "php": ">=7.2",
+        "cakephp/cakephp": "^4.3",
+        "cakephp/authentication": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fawno\\NTLM\\": "src"
+        }
+    },
+    "prefer-stable": true
+}
