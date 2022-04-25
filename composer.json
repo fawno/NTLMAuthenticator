@@ -1,6 +1,5 @@
 {
     "name": "fawno/ntlm-authentication",
-    "version": "0.0.1",
     "description": "NTLM Authenticator for CakePHP 4.3",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "authenticator", "ntlm", "authentication"],
@@ -25,5 +24,22 @@
             "Fawno\\NTLM\\": "src"
         }
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Fawno\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "scripts-descriptions": {
+        "test": "Run PHPUnit tests"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "cakephp/plugin-installer": true
+        }
+    }
 }

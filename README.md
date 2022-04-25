@@ -1,3 +1,11 @@
+[![GitHub license](https://img.shields.io/github/license/fawno/NTLMAuthenticator)](https://github.com/fawno/NTLMAuthenticator/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/fawno/NTLMAuthenticator)](https://github.com/fawno/NTLMAuthenticator/releases)
+[![Packagist](https://img.shields.io/packagist/v/fawno/ntlm-authentication)](https://packagist.org/packages/fawno/ntlm-authentication)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/fawno/ntlm-authentication)](https://packagist.org/packages/fawno/ntlm-authentication/stats)
+[![GitHub issues](https://img.shields.io/github/issues/fawno/NTLMAuthenticator)](https://github.com/fawno/NTLMAuthenticator/issues)
+[![GitHub forks](https://img.shields.io/github/forks/fawno/NTLMAuthenticator)](https://github.com/fawno/NTLMAuthenticator/network)
+[![GitHub stars](https://img.shields.io/github/stars/fawno/NTLMAuthenticator)](https://github.com/fawno/NTLMAuthenticator/stargazers)
+
 # NTLM Authenticator for CakePHP 4 Authentication plugin
 
 This plugin provides an NTLM Authenticator for CakePHP 4 authentication plugin.
@@ -25,7 +33,7 @@ Optional:
 
 Install this plugin into your application using [composer](https://getcomposer.org):
 
-- Add fawno/ntlm-authentication package to your project:
+- Add `fawno/ntlm-authentication` package to your project:
   ```bash
     composer require fawno/ntlm-authentication
   ```
@@ -48,6 +56,7 @@ Install this plugin into your application using [composer](https://getcomposer.o
 ## Configuration
 
 `exampledomain` short domain name
+
 `example.com` full domain name
 
 ### Apache with SSPI NTLM based authentication module ([mod_authn_ntlm](https://github.com/TQsoft-GmbH/mod_authn_ntlm))
