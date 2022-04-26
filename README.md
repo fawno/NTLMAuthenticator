@@ -37,11 +37,11 @@ Install this plugin into your application using [composer](https://getcomposer.o
   ```bash
     composer require fawno/ntlm-authentication
   ```
-- Load the NTLMAuthenticator in your Application.php:
+- Load the NTLMAuthenticator in your `Application.php`:
   ```php
   use Fawno\NTLM\Authenticator\NTLMAuthenticator;
   ```
-- Load the NTLMAuthenticator in your Authentication Service (Application.php):
+- Load the NTLMAuthenticator in your Authentication Service (`Application.php`):
   ```php
   // Load the authenticators. Session should be first.
   $service->loadAuthenticator('Authentication.Session');
@@ -61,7 +61,8 @@ Install this plugin into your application using [composer](https://getcomposer.o
 
 ### Apache with SSPI NTLM based authentication module ([mod_authn_ntlm](https://github.com/TQsoft-GmbH/mod_authn_ntlm))
 
-Only routes with /login are authenticated with NTLM
+Only routes with `/login` are authenticated with NTLM
+
 `webroot\.htaccess`:
 ```aconf
 <If "%{THE_REQUEST} =~ m#GET .*/login(\?.*)? HTTP.*#">
