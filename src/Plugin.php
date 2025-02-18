@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @license     https://opensource.org/licenses/mit-license.php MIT License
  * @link        https://github.com/fawno/NTLMAuthenticator
  */
-namespace Fawno\NTLM;
+namespace NTLMAuthenticator;
 
 use Cake\Core\BasePlugin;
 

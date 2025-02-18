@@ -1,7 +1,7 @@
 <?php
     declare(strict_types=1);
 
-    namespace Fawno\NTLM\Authenticator;
+    namespace NTLMAuthenticator\Authenticator;
 
     use Authentication\Authenticator\AbstractAuthenticator;
     use Authentication\Authenticator\PersistenceInterface;
@@ -110,7 +110,7 @@
                     if (!empty($user['dn']['CN'][0])) {
                         $user['displayname'] = $user['dn']['CN'][0];
                     } else {
-                        $user['displayname'] = implode('/', $user['username']);
+                        $user['displayname'] = implode('/', $user['username'] ?? []);
                     }
                 }
 
